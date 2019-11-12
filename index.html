@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Studie portfolio met mijn hoogtepunten." />
+    <meta name="keywords" content="Studie, portfolio, CMD, Communicatie Multimedia Design, HvA, Studiefolio" />
+    <title>Studie portfolio Nathan Neelis</title>
+    <link rel="stylesheet" href="style/style.css">
+
+    <!-- Hieronder de fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Dosis" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <!-- Begin navigatie -->
+        <nav>
+            <ul>
+                <li> <a href="index.html"> Home </a></li>
+                <li> <a href="overmij.html"> Over mij </a></li>
+                <li> <a href="projecten.html"> Projects </a></li>
+
+            </ul>
+        </nav>
+        <!-- Eind navigatie -->
+        <figure>
+            <video poster="images/poster.jpg" autoplay preload loop>
+                <source src="video/Valegieren.mp4" type='video/mp4;codecs="avc1.42E01E, mp4a.40.2"' />
+                <source src="video/Valegieren.webm" type='video/webm;codecs="vp8, vorbis"' />
+                <p> Stopmotion video van de vale gier.</p>
+            </video>
+        </figure>
+        <!-- code uit boek: HTML&CSS van James Ducket - Hoofdstuk 9  blz 214 -->
+
+        <div id="title">
+            <h1>De vale gier</h1>
+            <h2>Een stop motion video</h2>
+            <a href="#projecten">
+                <img src="images/iconen/arrowdown.png" alt="" class="arrow">
+                <p>Lees hieronder verder!</p>
+            </a>
+            <!-- Bron icoon down by Brandy Bora from the Noun Project: https://thenounproject.com/search/?q=down&i=1247052 -->
+        </div> <!-- eind div title -->
+    </header>
+
+    <main>
+        <!-- main content -->
+        <article>
+            <div id="projecten">
+                <h3>Mijn studie loopbaan..</h3>
+                <p>In augustus 2018 ben ik begonnen met de studie Communicatie Multimedia Design op de HVA. Als start van deze opleiding zijn we in teamverband een stop motion video gaan maken. Het onderwerp van de video zou een Artis dier zijn. Wij kozen de vale gier. Met onze video wisten wij twee prijzen binnen te slepen! De prijs voor <em>"Beste film overall"</em> en de <em>"Publieksprijs"!</em>
+                </p>
+                <p>Nu aan het eind van mijn propedeuse moet ik gaan nadenken over welke richting ik op wil gaan tijdens het vervolg van deze studie.
+                    Tijdens het vak Maatschappij en Interactie ben ik geïnteresseerd geraakt in neuromarketing. De richting die ik hier voor zou moeten kiezen binnen deze opleiding is User Experience. Maar ik zit nog te overwegen om dit te combineren met Front End Development omdat ik deze richting ook enorm leuk vind om te doen. </p>
+                <div id="btn-project">
+                    <p><a href="projecten.html">Benieuwd naar mijn projecten?</a></p>
+                    <div id="btn-project-img">
+                        <a href="projecten.html"><img src="images/iconen/icon-projects.png" alt="Icoon projecten"></a>
+                    </div> <!-- eind div btn-project-img -->
+                </div> <!-- eind div btn-project -->
+                <!-- bron button projecten: https://thenounproject.com/search/?q=projects&i=2442161 -->
+            </div><!-- eind div projecten -->
+        </article>
+
+    </main>
+
+    <footer>
+        <div id="wrap-footer">
+            <section id="linkedin">
+                <h4>Wil jij op de hoogte blijven van mijn toekomst?</h4>
+                <p>Volg me hier op Linkedin!</p>
+                <div id="logo-linkedin">
+                    <a href="https://www.linkedin.com/in/nathan-neelis-83219236/" target="_blank"><img src="images/iconen/linkedin_108x108px.png" alt="logo Linkedin"></a>
+                    <!-- bron logo linkedin: https://www.brandsoftheworld.com/logo/linkedin-3 -->
+                </div><!-- eind div logo linkedin-->
+            </section><!-- eind section nieuwsbrief-->
+
+            <section id="gegevens">
+                <h4>Nathan Neelis</h4>
+                <p>Venatorstraat 29</p>
+                <p>1827NS te Alkmaar</p>
+                <div id="foto-nathan">
+                    <img src="images/nathan.png" alt="Foto van Nathan">
+                </div><!-- eind div foto-nathan-->
+            </section><!-- eind section gegevens-->
+
+            <section id="location">
+                <figure>
+                    <h4>Download hier mijn CV</h4>
+                    <a href="documents/cv.pdf" target="_blank" id="download-link"> Download CV</a>
+
+                </figure>
+            </section><!-- eind section location-->
+        </div><!-- eind wrap-footer-->
+
+        <div id="copyright">
+            <p>&copy; 2019 Nathan Neelis</p>
+        </div><!-- eind div copyright -->
+
+    </footer>
+
+
+</body>
+
+</html>

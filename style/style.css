@@ -1,0 +1,599 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+
+
+body {
+    font-family: "dosis", sans-serif;
+}
+
+
+
+
+h1 {
+    font-family: "Indie Flower", cursive;
+    font-size: 4em;
+    color: rgb(51, 51, 51);
+}
+
+h3 {
+    font-size: 2em;
+    color: rgb(51, 51, 51);
+}
+
+figcaption {
+    font-style: italic;
+    font-size: 0.75em;
+}
+
+
+
+/* H1 font family code + font van https://fonts.google.com/?selection.family=Indie+Flower */
+
+/*CSS NAVIGATIE BALK*/
+nav {
+    width: 100%;
+    position: static;
+    z-index: 100;
+}
+
+
+
+nav ul {
+    list-style: none;
+    background-color: rgb(51, 51, 51);
+    color: white;
+    text-align: center;
+}
+
+nav ul li {
+    display: block;
+    padding: 1em 2em;
+    transition-duration: 0.5s;
+}
+
+nav ul li:hover {
+    background-color: darkslategrey;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+
+
+/*EIND CSS NAVIGATIE BALK*/
+
+figure img {
+    width: 100%;
+    z-index: 1;
+}
+
+/*VIDEO START*/
+video {
+    width: 100%;
+    z-index: 1;
+
+}
+
+#title {
+    border-radius: .2em;
+    padding: 2em 3em;
+    text-align: center;
+    display: block;
+}
+
+#title img {
+    margin-top: 1.5em;
+}
+
+#title a {
+    text-decoration: none;
+    color: rgb(51, 51, 51);
+}
+
+#title-projects {
+    border-radius: .2em;
+    padding: 2em 3em;
+    text-align: center;
+    display: block;
+}
+
+#title-projects img {
+    margin-top: 1.5em;
+}
+
+#title-projects a {
+    text-decoration: none;
+    color: rgb(51, 51, 51);
+}
+
+
+
+.arrow {
+    transition: transform .2s;
+}
+
+.arrow:hover {
+    transform: scale(1.2);
+}
+
+/* VIDEO END*/
+
+
+/* Instangram content homepage */
+#projecten {
+    width: 85%;
+    margin: 0em auto;
+    padding: 10em 0;
+}
+
+#projecten h3 {
+    width: 100%;
+    text-align: center;
+    font-size: 2em;
+}
+
+#projecten p {
+    width: 100%;
+    margin-top: 1em;
+    text-align: center;
+}
+
+#btn-project {
+    margin-top: 2em;
+}
+
+#btn-project a {
+    text-decoration: none;
+    color: rgb(51, 51, 51);
+}
+
+#btn-project p {
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+
+
+#btn-project-img {
+    background-color: darkslategrey;
+    height: 108px;
+    width: 108px;
+    border-radius: 50%;
+    margin: 1em auto;
+    transition-duration: 1s;
+    box-shadow: 0em 0em 0.4em #888888;
+}
+
+#btn-project-img:hover {
+    background-color: rgb(51, 51, 51);
+}
+
+
+#btn-project-img img {
+    vertical-align: middle;
+}
+
+/* Instagram eind */
+
+/* Begin Footer */
+footer {
+    background-color: rgb(51, 51, 51);
+    padding: 4em 0em 0em 0em;
+}
+
+footer #copyright {
+    text-align: center;
+    margin-top: 3em;
+    padding: 1em;
+    color: white;
+}
+
+#wrap-footer {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    /* Flexbox code geleerd van: https://css-tricks.com/snippets/css/a-guide-to-flexbox/ */
+}
+
+/* nieuwsbrief sectie footer */
+#linkedin {
+    width: 100%;
+    margin: 0 auto 2em auto;
+}
+
+#linkedin h4 {
+    text-align: center;
+    margin-bottom: 0.2em;
+}
+
+#linkedin p {
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+#linkedin img {
+    margin: 0 auto;
+    text-align: center;
+}
+
+#logo-linkedin {
+    display: flex;
+    justify-content: center;
+    margin-top: 1em;
+
+}
+
+/* eind subscribe button nieuwsbrief form - homepage */
+/* eind nieuwsbrief sectie footer */
+
+/* Begin gegevens sectie footer */
+#gegevens {
+    margin: 0 0 4em 0;
+    width: 100%;
+}
+
+
+#gegevens p {
+    text-align: center;
+
+}
+
+#gegevens h4 {
+    text-align: center;
+
+}
+
+#foto-nathan {
+    display: flex;
+    justify-content: center;
+    margin-top: 1em;
+
+}
+
+/* Eind gegevens sectie footer */
+
+/* Begin locatie sectie footer */
+
+
+#location {
+
+    width: 100%;
+    text-align: center;
+}
+
+#location h4 {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+#location img {
+    border: 0.25em solid white;
+    margin-top: 1em;
+}
+
+
+#download-link {
+    display: block;
+    width: 35%;
+    padding: 1em;
+    margin: 0 auto 4em auto;
+    background-color: rgb(51, 51, 51);
+    border-radius: .5em;
+    color: white;
+    border-width: thin;
+    border-style: solid;
+    border-color: white;
+    border-radius: .5em;
+    transition-duration: .5s;
+    text-decoration: none;
+}
+
+#download-link:hover {
+    background-color: white;
+    color: rgb(51, 51, 51);
+}
+
+
+.download-btn {
+    display: block;
+    text-align: center;
+    width: 35%;
+    padding: 1em;
+    margin: 0 0 4em 0;
+    background-color: darkslategray;
+    border-radius: .5em;
+    color: white;
+    border-width: thin;
+    border-style: solid;
+    border-color: darkslategray;
+    border-radius: .5em;
+    transition-duration: .5s;
+    text-decoration: none;
+}
+
+.download-btn:hover {
+    background-color: white;
+    color: darkslategray;
+    border-color: darkslategray;
+}
+
+
+/* Eind locatie sectie footer */
+/* Eind footer */
+
+/* CONTACT FORM START*/
+/* FORM END*/
+
+/* Stories stylen start */
+/* Hero images stylen start */
+
+.title-small {
+    text-align: center;
+    padding-top: 1em;
+    font-size: 2.5em;
+}
+
+.title-small-green {
+    text-align: center;
+    color: darkslategrey;
+    padding-top: 1em;
+    font-size: 2.5em;
+}
+
+.title-small-white {
+    text-align: center;
+    color: white;
+    font-size: 2.5em;
+    padding-bottom: 1em;
+}
+
+.title-sm-white {
+    text-align: center;
+    color: white;
+    font-size: 2.5em;
+    padding-bottom: .5em;
+    padding-top: .25em;
+}
+
+
+.subtitle {
+    text-align: center;
+    font-size: 2.5em;
+}
+
+.hero {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.hero img {
+    width: 100%;
+    margin-bottom: 2em;
+
+}
+
+.btn-balk {
+    background-color: rgb(51, 51, 51);
+    text-align: center;
+    margin-top: 2em;
+}
+
+.btn-balk a {
+    padding: 1% 2%;
+    color: white;
+    text-decoration: none;
+}
+
+.btn-balk:hover {
+    background-color: darkslategray;
+}
+
+
+
+/* Hero images stylen eind */
+
+
+/* storie pages stylen */
+#container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+#intro {
+    background-color: rgb(51, 51, 51);
+}
+
+#intro p {
+    margin: 2em 0;
+    text-align: center;
+}
+
+#intro img {
+    margin: 2em 0 0 0;
+    padding: 1em 0 0 0;
+}
+
+
+.stories img {
+    width: 100%;
+}
+
+.stories p {
+    padding: 1em 0 1.5em 0;
+
+}
+
+.stories h3 {
+    margin: 1em 0 .25em 0;
+}
+
+.stories .article-end {
+    border-bottom-width: 0;
+    margin-bottom: 4em;
+}
+
+
+/* Eind storie pages stylen */
+
+
+/* verstuurd feedback start */
+#verstuurd {
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#verstuurd img {
+    margin-top: 4em;
+}
+
+#verstuurd p {
+    margin-bottom: 10em;
+}
+
+
+/* OVER MIJ */
+.nathan {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 60%;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.block {
+    margin: 1em;
+    padding: 1em;
+    text-align:center;
+}
+
+/* RESPONSIVE */
+
+/* Responsive 1200px START*/
+@media all and (min-width: 1200px) {
+    #title-projects {
+        background-color: rgba(255, 255, 255, 0.7);
+        position: absolute;
+        top: 10em;
+        left: 25%;
+        right: 25%;
+        z-index: 2;
+
+    }
+
+        /* over mij */
+    .nathan {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+    }
+
+}
+
+/* Responsive 1100px START*/
+@media all and (min-width: 1100px) {
+
+
+}
+
+
+/* Responsive 800px START*/
+@media all and (min-width: 800px) {
+
+    /* navigatie */
+    nav {
+        position: fixed;
+    }
+
+    nav ul li {
+        display: inline-block;
+    }
+
+    #title {
+        background-color: rgba(255, 255, 255, 0.7);
+        position: absolute;
+        top: 10em;
+        left: 25%;
+        right: 25%;
+        z-index: 2;
+
+    }
+
+
+    /* H1 head kleiner */
+    .title-small {
+        padding-top: 2em;
+    }
+
+    .title-small-white {
+        padding-top: 3em;
+        padding-bottom: 1em;
+    }
+
+    /* isntragram section */
+    #projecten {
+        width: 35%;
+        margin: 0em auto;
+        padding: 10em 0;
+    }
+
+    /* footer */
+    #wrap-footer {
+        color: white;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        flex-wrap: nowrap;
+        /* Flexbox code geleerd van: https://css-tricks.com/snippets/css/a-guide-to-flexbox/ */
+    }
+
+    #linkedin {
+        margin: 0 2em;
+        width: 100%;
+    }
+
+
+    #gegevens {
+        margin: 0 2em;
+        width: 100%;
+    }
+
+    #location {
+        margin-right: 4em;
+        width: 100%;
+        text-align: center;
+    }
+
+    /* stories */
+    .hero {
+        width: 50%;
+    }
+
+    #container {
+        width: 50%;
+        margin: 0 auto;
+    }
+
+
+
+}
+
+
+
+
+
+/* Responsive 600px START*/
+@media all and (min-width: 600px) {}
+
+/* Responsive hulp by Janno - docent Internetstandaarden */
+
+/* Responsive END*/
